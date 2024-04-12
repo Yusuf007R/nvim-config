@@ -3,3 +3,5 @@
 !starship.toml
 !nvim/
 !/nvim/**
+!tmux/
+!/tmux/**

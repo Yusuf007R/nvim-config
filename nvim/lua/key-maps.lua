@@ -8,3 +8,10 @@ map('n', '<leader>ln', function()
 end, {
   desc = "Toggle relative line numbers"
 })
+
+
+map('n', '<leader>cl', function()
+  vim.o.cursorline = not vim.o.cursorline
+end, {
+  desc = "Toggle cursorline"
+})

@@ -6,7 +6,7 @@ local options = {
   swapfile = false,
   termguicolors = true,
   updatetime = 300,
-  relativenumber = true
+  relativenumber = true,
 }
 
 local globals = {
